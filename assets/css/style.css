@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/assets/img/netflix-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.header-logo img {
+    width: 220px;
+    height: 100px;
+    margin: -2px 0 0 50px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.netflix {
+    width: 27rem;
+    height: 33rem;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .75);
+}
+
+.netflix h2 {
+    color: white;
+    margin-right: 230px;
+    font-size: 30px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.form-netflix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.screen-netflix {
+    display: flex;
+    flex-direction: column;
+    margin: 1px 0 0 0;
+}
+
+.screen-netflix input {
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333333;
+    color: darkgray;
+}
+
+.screen-netflix input[placeholder] {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.btn-netflix {
+    margin-top: 35px;
+    width: 322px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form-help {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-help input[type="checkbox"] {
+    background-color: #333333;
+    border-radius: 3px;
+    border: none;
+}
+
+.remember-me {
+    margin-right: auto;
+}
+
+.help {
+    margin-left: 65px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: #808080;
+}
+
+p {
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-right: 43px;
+}
+
+small {
+    margin-left: 5px;
+    margin-top: 20px;
+}
